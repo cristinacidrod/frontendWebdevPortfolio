@@ -1,9 +1,10 @@
-#video-bg > video {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  min-width: 100%;
+.video-box {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
   min-height: 100%;
-  z-index: -1000;
+  z-index: -100;
   overflow: hidden;
+  filter: grayscale(80%) saturate(140%) brightness(140%) contrast(120%);
 }
