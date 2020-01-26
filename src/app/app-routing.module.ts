@@ -9,6 +9,7 @@ import { JournalismComponent } from './journalism/journalism.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'resume', component: ResumeComponent },
   { path: 'portfolio', component: PortfolioComponent },
